@@ -1,0 +1,26 @@
+.representationButtonContainer{
+    width: 80%;
+    float: left;
+    position: relative;
+    left: 132px;
+    padding-bottom: 20px;
+}
+
+.representationButtonContainer button{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    background: powderblue;
+    color: white;
+    cursor: pointer;
+    font-family: cursive;
+    outline: none;
+}
+.representationButtonContainer button:hover, .representationButtonContainer button.active{
+    border: 1px solid black;
+    border-radius: 8px;
+    background: powderblue;
+    color: black;
+    cursor: pointer;
+    font-family: cursive;
+}
